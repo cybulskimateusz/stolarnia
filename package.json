@@ -1,0 +1,26 @@
+{
+  "name": "stolarnia-pod-jalowcem-v2",
+  "version": "2.0.0",
+  "description": "Stolarnia pod jalowcem -strona oficjalna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node-modules/.bin/netlify-lambda serve src",
+    "build": "./node-modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybulskimateusz/stolarnia.git"
+  },
+  "author": "cybulskimateusz.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cybulskimateusz/stolarnia/issues"
+  },
+  "homepage": "https://github.com/cybulskimateusz/stolarnia#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "serverless-http": "^2.3.0"
+  }
+}
